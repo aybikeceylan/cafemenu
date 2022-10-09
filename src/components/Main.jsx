@@ -10,7 +10,7 @@ const Main = ({ data }) => {
             <div className="description">
                 <div className="top">
                     <p className="name">{name}</p>
-                    <p className="price">{price}</p>
+                    <p className="price">{price}$</p>
                 </div>
                 <div className="category">{category}</div>
                 <div className="title">{title}</div>
