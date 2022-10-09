@@ -1,9 +1,13 @@
 import React from 'react'
 
-const header = () => {
+const Header = () => {
     return (
-        <div>Code Fraternity Cafe Menu</div>
+        <div className='header' >
+            <i class="fa-solid fa-moon"></i>
+            <h1 className="head">Code Diaries Cafe Menu</h1>
+
+        </div>
     )
 }
 
-export default header
+export default Header
