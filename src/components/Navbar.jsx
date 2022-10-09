@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
     return (
         <div className='nav' >
-            <h3 className='menu' >Our Menu</h3>
+            <h3 >Our Menu</h3>
             <ul>
                 <li>All</li>
                 <li>Breakfast</li>

@@ -1,16 +1,19 @@
 import React from 'react'
 
-const Main = () => {
+
+const Main = ({ data }) => {
+    const { name, title, price, category, url } = data
+    console.log(data);
     return (
-        <div>
-            <div className="image"><img src="" alt="" /></div>
+        <div className="menu">
+            <div className="image"><img src={url} alt="" /></div>
             <div className="description">
                 <div className="top">
-                    <p className="name"></p>
-                    <p className="price"></p>
+                    <p className="name">{name}</p>
+                    <p className="price">{price}</p>
                 </div>
-                <div className="category"></div>
-                <div className="title"></div>
+                <div className="category">{category}</div>
+                <div className="title">{title}</div>
             </div>
         </div>
     )
